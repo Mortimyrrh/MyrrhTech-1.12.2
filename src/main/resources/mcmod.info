@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mtm",
+  "name": "MyrrhTech",
+  "description": "Sweet Sweet Stuff",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["MortiMyrrh"],
+  "credits": "The Forge and FML guys",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

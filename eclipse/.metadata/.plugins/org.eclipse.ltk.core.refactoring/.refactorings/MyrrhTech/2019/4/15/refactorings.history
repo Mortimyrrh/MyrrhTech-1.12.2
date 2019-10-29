@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;MyrrhTech&apos;&#x0A;- Original project: &apos;MyrrhTech&apos;&#x0A;- Original element: &apos;ruby_block_Old.json&apos;" description="Delete element" element1="src/main/resources/assets/mtm/models/block/ruby_block_Old.json" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1554766303943" subPackages="false" version="1.0"/>
+</session>

@@ -33,6 +33,12 @@
 <fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Items.Tools.ToolSword"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemSword"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemSpade"/>
-<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.util.IHasModel"/>
 <fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Items.tools.ToolSpade"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemPickaxe"/>
+<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.util.IHasModel"/>
+<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Items.tools.ToolPickaxe"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemAxe"/>
+<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Items.tools.ToolAxe"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemHoe"/>
+<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Items.tools.ToolHoe"/>
 </qualifiedTypeNameHistroy>

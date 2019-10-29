@@ -13,6 +13,9 @@ public class ModBlocks
 {
 	public static final List <Block> BLOCKS = new ArrayList<Block>();
 	
+	// Blocks
 	public static final Block RUBY_BLOCK = new RubyBlock("ruby_block", Material.IRON);
+	
+	// Tile Entitys??
 	
 }

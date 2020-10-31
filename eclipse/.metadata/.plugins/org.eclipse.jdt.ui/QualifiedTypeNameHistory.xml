@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.util.Reference"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.Instance"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.SidedProxy"/>
@@ -19,14 +18,9 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.blocks.BlockBase"/>
-<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemBlock"/>
 <fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Main"/>
-<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
-<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Init.ModItems"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
-<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Init.ModBlocks"/>
-<fullyQualifiedTypeName name="net.minecraft.block.SoundType"/>
 <fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.blocks.RubyBlock"/>
 <fullyQualifiedTypeName name="net.minecraftforge.common.util.EnumHelper"/>
 <fullyQualifiedTypeName name="net.minecraft.item.Item.ToolMaterial"/>
@@ -35,10 +29,33 @@
 <fullyQualifiedTypeName name="net.minecraft.item.ItemSpade"/>
 <fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Items.tools.ToolSpade"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemPickaxe"/>
-<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.util.IHasModel"/>
 <fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Items.tools.ToolPickaxe"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemAxe"/>
 <fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Items.tools.ToolAxe"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemHoe"/>
 <fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Items.tools.ToolHoe"/>
+<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.util.Reference"/>
+<fullyQualifiedTypeName name="net.minecraft.init.SoundEvents"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemArmor.ArmorMaterial"/>
+<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.util.IHasModel"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemArmor"/>
+<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Items.armor.ArmorBase"/>
+<fullyQualifiedTypeName name="net.minecraft.inventory.EntityEquipmentSlot"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Init.ModItems"/>
+<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.blocks.RubyOre"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.IWorldGenerator"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="net.minecraft.world.gen.IChunkGenerator"/>
+<fullyQualifiedTypeName name="net.minecraft.world.World"/>
+<fullyQualifiedTypeName name="net.minecraft.world.chunk.IChunkProvider"/>
+<fullyQualifiedTypeName name="net.minecraft.block.state.IBlockState"/>
+<fullyQualifiedTypeName name="net.minecraft.util.math.BlockPos"/>
+<fullyQualifiedTypeName name="net.minecraft.world.gen.feature.WorldGenMinable"/>
+<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.Init.ModBlocks"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.world.ModWorldGen"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="net.minecraft.block.SoundType"/>
+<fullyQualifiedTypeName name="com.Mortimyrrh.MyrrhTech.blocks.RossBlock"/>
 </qualifiedTypeNameHistroy>

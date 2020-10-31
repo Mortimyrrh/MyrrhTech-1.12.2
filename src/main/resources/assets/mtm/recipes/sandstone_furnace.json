@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "# #",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sandstone",
+            "data": 0,
+            "count": 1
+        }
+    },
+    "result": {
+        "item": "mtm:sandstone_furnace",
+        "count": 1
+    }
+}

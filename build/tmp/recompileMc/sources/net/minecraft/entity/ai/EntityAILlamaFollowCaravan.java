@@ -1,4 +1,4 @@
-package net.minecraft.entity.ai;
+mpackage net.minecraft.entity.ai;
 
 import java.util.List;
 import net.minecraft.entity.passive.EntityLlama;

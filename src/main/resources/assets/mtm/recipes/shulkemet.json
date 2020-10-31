@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+        "GSG",
+        "G G"
+    ],
+    
+    "key": {
+        "G": {
+            "item": "minecraft:gold_nugget"
+        },
+        "S": {
+            "item": "minecraft:shulker_shell"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mtm:shulkemet",
+        "count": 1
+    }
+}

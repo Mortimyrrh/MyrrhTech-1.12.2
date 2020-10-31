@@ -1,0 +1,20 @@
+{
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2020-10-31 02:03:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar": {
+    "criteria": {
+      "has_reeds": "2020-10-31 02:03:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2020-10-31 02:03:23 +0000"
+    },
+    "done": false
+  }
+}

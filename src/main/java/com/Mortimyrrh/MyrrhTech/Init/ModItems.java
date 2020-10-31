@@ -31,7 +31,11 @@ public class ModItems {
 	// Materials
 	public static final ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 1561, 8.0F, 3.0F, 10);
 	public static final ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 14, 
-			new int[] {3,7,6,3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
+			new int[] {2,5,6,3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
+			//boots chest leg hat
+	
+	public static final ArmorMaterial ARMOR_MATERIAL_SHULKEMET = EnumHelper.addArmorMaterial("armor_material_shulkemet", Reference.MOD_ID + ":shulkemet", 14, 
+			new int[] {2,5,6,4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
 			//boots chest leg hat
 	
 	// Items
@@ -49,4 +53,7 @@ public class ModItems {
 	public static final Item RUBY_CHESTPLATE 		= new ArmorBase("ruby_chestplate", 	ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.CHEST);
 	public static final Item RUBY_LEGGINGS 			= new ArmorBase("ruby_leggings", 	ARMOR_MATERIAL_RUBY, 2, EntityEquipmentSlot.LEGS);
 	public static final Item RUBY_BOOTS 			= new ArmorBase("ruby_boots", 		ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.FEET);
+	
+	public static final Item SHULKEMET 				= new ArmorBase("shulkemet", 		ARMOR_MATERIAL_SHULKEMET, 1, EntityEquipmentSlot.HEAD);
+
 }

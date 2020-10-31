@@ -6,6 +6,13 @@ item.ruby.name=Ruby
 // Blocks
 
 tile.ruby_block.name=Block of Ruby
+tile.ruby_ore.name=Ruby Ore
+tile.ross_block.name=Ross Block
+
+tile.sandstone_furnace.name=Sandstone Furnace
+container.sintering_furnace.name=Huhhh????
+container.sandstone_furnace.name=Sandstone Furnace
+
 
 // Tools
 
@@ -14,3 +21,12 @@ item.ruby_axe.name=Ruby Axe
 item.ruby_pickaxe.name=Ruby Pickaxe
 item.ruby_hoe.name=Ruby Hoe
 item.ruby_shovel.name=Ruby Shovel
+
+// Armor
+item.ruby_helmet.name=Ruby Helmet
+item.ruby_chestplate.name=Ruby Chestplate
+item.ruby_leggings.name=Ruby Leggings
+item.ruby_boots.name=Ruby Boots
+
+item.shulkemet.name=Shulkemet
+

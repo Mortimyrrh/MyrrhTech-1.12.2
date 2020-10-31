@@ -1,0 +1,14 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "desert": "2020-10-30 14:31:04 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2020-10-30 14:31:04 +0000"
+    },
+    "done": true
+  }
+}

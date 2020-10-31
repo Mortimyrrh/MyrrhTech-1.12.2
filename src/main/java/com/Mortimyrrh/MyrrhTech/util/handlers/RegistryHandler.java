@@ -1,7 +1,9 @@
 package com.Mortimyrrh.MyrrhTech.util.handlers;
 
+import com.Mortimyrrh.MyrrhTech.Main;
 import com.Mortimyrrh.MyrrhTech.Init.ModBlocks;
 import com.Mortimyrrh.MyrrhTech.Init.ModItems;
+import com.Mortimyrrh.MyrrhTech.blocks.machines.SandstoneFurnace.TileEntitySandstoneFurnace;
 import com.Mortimyrrh.MyrrhTech.util.IHasModel;
 
 import net.minecraft.block.Block;
@@ -10,6 +12,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler {
@@ -24,6 +27,7 @@ public class RegistryHandler {
 	public static void onBlockRegister(RegistryEvent.Register<Block> event)
 	{
 		event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
+		TileEntityHandler.registerTileEntities();
 	}
 	
 	@SubscribeEvent
@@ -42,5 +46,10 @@ public class RegistryHandler {
 				((IHasModel)block).registerModels();
 			}
 		}
+	}
+	
+	public static void initRegistries()
+	{
+		NetworkRegistry.INSTANCE.registerGuiHandler(Main.instance, new GuiHandler());
 	}
 }

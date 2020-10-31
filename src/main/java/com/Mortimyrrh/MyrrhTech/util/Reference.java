@@ -9,4 +9,6 @@ public class Reference {
 	public static final String CLIENT_PROXY_CLASS 	= "com.Mortimyrrh.MyrrhTech.Proxy.ClientProxy";
 	public static final String COMMON_PROXY_CLASS 	= "com.Mortimyrrh.MyrrhTech.Proxy.CommonProxy";
 	
+	
+	public static final int GUI_SANDSTONE_FURNACE	= 1;
 }

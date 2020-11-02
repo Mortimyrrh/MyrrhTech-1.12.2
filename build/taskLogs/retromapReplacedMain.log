@@ -1,0 +1,640 @@
+Processing 29 files
+Start Processing: com/Mortimyrrh/MyrrhTech/Init/ModBlocks.java
+Rename field net/minecraft/block/material/Material/IRON[642,646]::IRON->field_151573_f
+Rename field net/minecraft/block/material/Material/ROCK[736,740]::ROCK->field_151576_e
+Rename field net/minecraft/block/material/Material/ROCK[834,838]::ROCK->field_151576_e
+Import: java.util.ArrayList
+Import: java.util.List
+Import: com.Mortimyrrh.MyrrhTech.blocks.BlockBase
+Import: com.Mortimyrrh.MyrrhTech.blocks.RossBlock
+Import: com.Mortimyrrh.MyrrhTech.blocks.RubyBlock
+Import: com.Mortimyrrh.MyrrhTech.blocks.RubyOre
+Import: com.Mortimyrrh.MyrrhTech.blocks.machines.SandstoneFurnace.SandstoneFurnace
+Import: net.minecraft.block.Block
+Import: net.minecraft.block.material.Material
+End  Processing: com/Mortimyrrh/MyrrhTech/Init/ModBlocks.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/Init/ModItems.java
+Rename field net/minecraft/init/SoundEvents/ITEM_ARMOR_EQUIP_CHAIN[1376,1398]::ITEM_ARMOR_EQUIP_CHAIN->field_187713_n
+Rename field net/minecraft/init/SoundEvents/ITEM_ARMOR_EQUIP_CHAIN[1622,1644]::ITEM_ARMOR_EQUIP_CHAIN->field_187713_n
+Import: java.util.ArrayList
+Import: java.util.List
+Import: com.Mortimyrrh.MyrrhTech.Items.ItemBase
+Import: com.Mortimyrrh.MyrrhTech.Items.armor.ArmorBase
+Import: com.Mortimyrrh.MyrrhTech.Items.tools.ToolAxe
+Import: com.Mortimyrrh.MyrrhTech.Items.tools.ToolHoe
+Import: com.Mortimyrrh.MyrrhTech.Items.tools.ToolPickaxe
+Import: com.Mortimyrrh.MyrrhTech.Items.tools.ToolSpade
+Import: com.Mortimyrrh.MyrrhTech.Items.tools.ToolSword
+Import: com.Mortimyrrh.MyrrhTech.util.Reference
+Import: net.minecraft.init.SoundEvents
+Import: net.minecraft.inventory.EntityEquipmentSlot
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.Item.ToolMaterial
+Import: net.minecraft.item.ItemArmor.ArmorMaterial
+Import: net.minecraft.item.ItemAxe
+Import: net.minecraft.item.ItemHoe
+Import: net.minecraft.item.ItemPickaxe
+Import: net.minecraft.item.ItemSpade
+Import: net.minecraft.item.ItemSword
+Import: net.minecraftforge.common.util.EnumHelper
+End  Processing: com/Mortimyrrh/MyrrhTech/Init/ModItems.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/Items/ItemBase.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/Items/ItemBase/ItemBase (Ljava/lang/String;)V com/Mortimyrrh/MyrrhTech/Items/ItemBase
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[351,369]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[398,412]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/MATERIALS[424,433]::MATERIALS->field_78035_l
+Import: com.Mortimyrrh.MyrrhTech.Main
+Import: com.Mortimyrrh.MyrrhTech.Init.ModItems
+Import: com.Mortimyrrh.MyrrhTech.util.IHasModel
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.Item
+End  Processing: com/Mortimyrrh/MyrrhTech/Items/ItemBase.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/Items/armor/ArmorBase.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/Items/armor/ArmorBase/ArmorBase (Ljava/lang/String;Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;)V com/Mortimyrrh/MyrrhTech/Items/armor/ArmorBase
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[556,574]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[603,617]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/COMBAT[629,635]::COMBAT->field_78037_j
+Import: com.Mortimyrrh.MyrrhTech.Main
+Import: com.Mortimyrrh.MyrrhTech.Init.ModItems
+Import: com.Mortimyrrh.MyrrhTech.util.IHasModel
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.inventory.EntityEquipmentSlot
+Import: net.minecraft.item.ItemArmor
+Adding 1 imports
+        net.minecraft.item.ItemArmor.ArmorMaterial
+End  Processing: com/Mortimyrrh/MyrrhTech/Items/armor/ArmorBase.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/Items/tools/ToolAxe.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/Items/tools/ToolAxe/ToolAxe (Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V com/Mortimyrrh/MyrrhTech/Items/tools/ToolAxe
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[476,494]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[523,537]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/TOOLS[549,554]::TOOLS->field_78040_i
+Import: com.Mortimyrrh.MyrrhTech.Main
+Import: com.Mortimyrrh.MyrrhTech.Init.ModItems
+Import: com.Mortimyrrh.MyrrhTech.util.IHasModel
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.Item.ToolMaterial
+Import: net.minecraft.item.ItemAxe
+End  Processing: com/Mortimyrrh/MyrrhTech/Items/tools/ToolAxe.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/Items/tools/ToolHoe.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/Items/tools/ToolHoe/ToolHoe (Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V com/Mortimyrrh/MyrrhTech/Items/tools/ToolHoe
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[447,465]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[494,508]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/TOOLS[520,525]::TOOLS->field_78040_i
+Import: com.Mortimyrrh.MyrrhTech.Main
+Import: com.Mortimyrrh.MyrrhTech.Init.ModItems
+Import: com.Mortimyrrh.MyrrhTech.util.IHasModel
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.Item.ToolMaterial
+Import: net.minecraft.item.ItemHoe
+End  Processing: com/Mortimyrrh/MyrrhTech/Items/tools/ToolHoe.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/Items/tools/ToolPickaxe.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/Items/tools/ToolPickaxe/ToolPickaxe (Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V com/Mortimyrrh/MyrrhTech/Items/tools/ToolPickaxe
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[462,480]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[509,523]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/TOOLS[535,540]::TOOLS->field_78040_i
+Import: com.Mortimyrrh.MyrrhTech.Main
+Import: com.Mortimyrrh.MyrrhTech.Init.ModItems
+Import: com.Mortimyrrh.MyrrhTech.util.IHasModel
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.Item.ToolMaterial
+Import: net.minecraft.item.ItemPickaxe
+End  Processing: com/Mortimyrrh/MyrrhTech/Items/tools/ToolPickaxe.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/Items/tools/ToolSpade.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/Items/tools/ToolSpade/ToolSpade (Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V com/Mortimyrrh/MyrrhTech/Items/tools/ToolSpade
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[455,473]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[502,516]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/TOOLS[528,533]::TOOLS->field_78040_i
+Import: com.Mortimyrrh.MyrrhTech.Main
+Import: com.Mortimyrrh.MyrrhTech.Init.ModItems
+Import: com.Mortimyrrh.MyrrhTech.util.IHasModel
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.ItemSpade
+Import: net.minecraft.item.Item.ToolMaterial
+End  Processing: com/Mortimyrrh/MyrrhTech/Items/tools/ToolSpade.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/Items/tools/ToolSword.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/Items/tools/ToolSword/ToolSword (Ljava/lang/String;Lnet/minecraft/item/Item$ToolMaterial;)V com/Mortimyrrh/MyrrhTech/Items/tools/ToolSword
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[411,429]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[458,472]::setCreativeTab->func_77637_a
+Rename field net/minecraft/creativetab/CreativeTabs/COMBAT[484,490]::COMBAT->field_78037_j
+Import: com.Mortimyrrh.MyrrhTech.Main
+Import: com.Mortimyrrh.MyrrhTech.Init.ModItems
+Import: com.Mortimyrrh.MyrrhTech.util.IHasModel
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.ItemSword
+Adding 1 imports
+        net.minecraft.item.Item.ToolMaterial
+End  Processing: com/Mortimyrrh/MyrrhTech/Items/tools/ToolSword.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/Main.java
+Import: com.Mortimyrrh.MyrrhTech.Proxy.CommonProxy
+Import: com.Mortimyrrh.MyrrhTech.util.Reference
+Import: com.Mortimyrrh.MyrrhTech.util.handlers.RegistryHandler
+Import: com.Mortimyrrh.MyrrhTech.world.ModWorldGen
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.Mod.EventHandler
+Import: net.minecraftforge.fml.common.Mod.Instance
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+End  Processing: com/Mortimyrrh/MyrrhTech/Main.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/Proxy/ClientProxy.java
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.item.Item
+Import: net.minecraftforge.client.model.ModelLoader
+End  Processing: com/Mortimyrrh/MyrrhTech/Proxy/ClientProxy.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/Proxy/CommonProxy.java
+Import: net.minecraft.item.Item
+End  Processing: com/Mortimyrrh/MyrrhTech/Proxy/CommonProxy.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/blocks/BlockBase.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/blocks/BlockBase/BlockBase (Ljava/lang/String;Lnet/minecraft/block/material/Material;)V com/Mortimyrrh/MyrrhTech/blocks/BlockBase
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[559,577]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[607,621]::setCreativeTab->func_149647_a
+Rename field net/minecraft/creativetab/CreativeTabs/BUILDING_BLOCKS[634,649]::BUILDING_BLOCKS->field_78030_b
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[857,873]::getItemFromBlock->func_150898_a
+Import: com.Mortimyrrh.MyrrhTech.Main
+Import: com.Mortimyrrh.MyrrhTech.Init.ModBlocks
+Import: com.Mortimyrrh.MyrrhTech.Init.ModItems
+Import: com.Mortimyrrh.MyrrhTech.util.IHasModel
+Import: net.minecraft.block.Block
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.creativetab.CreativeTabs
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.ItemBlock
+End  Processing: com/Mortimyrrh/MyrrhTech/blocks/BlockBase.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/blocks/RossBlock.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/blocks/RossBlock/RossBlock (Ljava/lang/String;Lnet/minecraft/block/material/Material;)V com/Mortimyrrh/MyrrhTech/blocks/RossBlock
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[288,300]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[312,317]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[357,368]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[424,437]::setResistance->func_149752_b
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.material.Material
+End  Processing: com/Mortimyrrh/MyrrhTech/blocks/RossBlock.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/blocks/RubyBlock.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/blocks/RubyBlock/RubyBlock (Ljava/lang/String;Lnet/minecraft/block/material/Material;)V com/Mortimyrrh/MyrrhTech/blocks/RubyBlock
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[289,301]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[313,318]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[358,369]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[425,438]::setResistance->func_149752_b
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.material.Material
+End  Processing: com/Mortimyrrh/MyrrhTech/blocks/RubyBlock.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/blocks/RubyOre.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/blocks/RubyOre/RubyOre (Ljava/lang/String;Lnet/minecraft/block/material/Material;)V com/Mortimyrrh/MyrrhTech/blocks/RubyOre
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[435,447]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[459,464]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[504,515]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[571,584]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[679,692]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/getItemDropped (Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;[885,899]::getItemDropped->func_180660_a
+Rename method net/minecraft/block/Block/quantityDropped (Ljava/util/Random;)I[1001,1016]::quantityDropped->func_149745_a
+Import: java.util.Random
+Import: com.Mortimyrrh.MyrrhTech.Init.ModItems
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.item.Item
+End  Processing: com/Mortimyrrh/MyrrhTech/blocks/RubyOre.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/ContainerSandstoneFurnace.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/ContainerSandstoneFurnace/ContainerSandstoneFurnace (Lnet/minecraft/entity/player/InventoryPlayer;Lcom/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/TileEntitySandstoneFurnace;)V com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/ContainerSandstoneFurnace
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[1209,1227]::addSlotToContainer->func_75146_a
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[1271,1289]::addSlotToContainer->func_75146_a
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[1333,1351]::addSlotToContainer->func_75146_a
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[1404,1422]::addSlotToContainer->func_75146_a
+Rename field net/minecraft/entity/player/InventoryPlayer/player[1455,1461]::player->field_70458_d
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[1597,1615]::addSlotToContainer->func_75146_a
+Rename method net/minecraft/inventory/Container/addSlotToContainer (Lnet/minecraft/inventory/Slot;)Lnet/minecraft/inventory/Slot;[1716,1734]::addSlotToContainer->func_75146_a
+Rename method net/minecraft/inventory/Container/detectAndSendChanges ()V[1801,1821]::detectAndSendChanges->func_75142_b
+Rename method net/minecraft/inventory/Container/detectAndSendChanges ()V[1828,1848]::detectAndSendChanges->func_75142_b
+Rename field net/minecraft/inventory/Container/listeners[1873,1882]::listeners->field_75149_d
+Rename field net/minecraft/inventory/Container/listeners[1963,1972]::listeners->field_75149_d
+Rename method net/minecraft/inventory/IContainerListener/sendWindowProperty (Lnet/minecraft/inventory/Container;II)V[2052,2070]::sendWindowProperty->func_71112_a
+Rename method net/minecraft/inventory/IContainerListener/sendWindowProperty (Lnet/minecraft/inventory/Container;II)V[2169,2187]::sendWindowProperty->func_71112_a
+Rename method net/minecraft/inventory/IContainerListener/sendWindowProperty (Lnet/minecraft/inventory/Container;II)V[2300,2318]::sendWindowProperty->func_71112_a
+Rename method net/minecraft/inventory/IContainerListener/sendWindowProperty (Lnet/minecraft/inventory/Container;II)V[2434,2452]::sendWindowProperty->func_71112_a
+Rename method net/minecraft/inventory/Container/updateProgressBar (II)V[2773,2790]::updateProgressBar->func_75137_b
+Rename method net/minecraft/inventory/Container/canInteractWith (Lnet/minecraft/entity/player/EntityPlayer;)Z[3098,3113]::canInteractWith->func_75145_c
+Rename method net/minecraft/inventory/Container/transferStackInSlot (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;[3225,3244]::transferStackInSlot->func_82846_b
+Rename field net/minecraft/item/ItemStack/EMPTY[3306,3311]::EMPTY->field_190927_a
+Rename field net/minecraft/inventory/Container/inventorySlots[3347,3361]::inventorySlots->field_75151_b
+Rename method net/minecraft/inventory/Slot/getHasStack ()Z[3402,3413]::getHasStack->func_75216_d
+Rename method net/minecraft/inventory/Slot/getStack ()Lnet/minecraft/item/ItemStack;[3450,3458]::getStack->func_75211_c
+Rename method net/minecraft/item/ItemStack/copy ()Lnet/minecraft/item/ItemStack;[3484,3488]::copy->func_77946_l
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[3541,3555]::mergeItemStack->func_75135_a
+Rename field net/minecraft/item/ItemStack/EMPTY[3593,3598]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Slot/onSlotChange (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)V[3618,3630]::onSlotChange->func_75220_a
+Rename field net/minecraft/inventory/Container/inventorySlots[3739,3753]::inventorySlots->field_75151_b
+Rename method net/minecraft/inventory/Slot/getStack ()Lnet/minecraft/item/ItemStack;[3853,3861]::getStack->func_75211_c
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[3869,3876]::isEmpty->func_190926_b
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[3906,3920]::mergeItemStack->func_75135_a
+Rename field net/minecraft/item/ItemStack/EMPTY[3972,3977]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[4077,4091]::mergeItemStack->func_75135_a
+Rename field net/minecraft/item/ItemStack/EMPTY[4129,4134]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[4234,4248]::mergeItemStack->func_75135_a
+Rename field net/minecraft/item/ItemStack/EMPTY[4286,4291]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[4391,4405]::mergeItemStack->func_75135_a
+Rename field net/minecraft/item/ItemStack/EMPTY[4443,4448]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[4527,4541]::mergeItemStack->func_75135_a
+Rename field net/minecraft/item/ItemStack/EMPTY[4581,4586]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[4652,4666]::mergeItemStack->func_75135_a
+Rename field net/minecraft/item/ItemStack/EMPTY[4718,4723]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Container/mergeItemStack (Lnet/minecraft/item/ItemStack;IIZ)Z[4770,4784]::mergeItemStack->func_75135_a
+Rename field net/minecraft/item/ItemStack/EMPTY[4833,4838]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[4867,4874]::isEmpty->func_190926_b
+Rename method net/minecraft/inventory/Slot/putStack (Lnet/minecraft/item/ItemStack;)V[4898,4906]::putStack->func_75215_d
+Rename field net/minecraft/item/ItemStack/EMPTY[4921,4926]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Slot/onSlotChanged ()V[4965,4978]::onSlotChanged->func_75218_e
+Rename method net/minecraft/item/ItemStack/getCount ()I[5000,5008]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/getCount ()I[5025,5033]::getCount->func_190916_E
+Rename field net/minecraft/item/ItemStack/EMPTY[5059,5064]::EMPTY->field_190927_a
+Rename method net/minecraft/inventory/Slot/onTake (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;[5083,5089]::onTake->func_190901_a
+Import: com.Mortimyrrh.MyrrhTech.blocks.machines.SandstoneFurnace.slots.SlotSandstoneFurnaceFuel
+Import: com.Mortimyrrh.MyrrhTech.blocks.machines.SandstoneFurnace.slots.SlotSandstoneFurnaceOutput
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.entity.player.InventoryPlayer
+Import: net.minecraft.inventory.Container
+Import: net.minecraft.inventory.IContainerListener
+Import: net.minecraft.inventory.Slot
+Import: net.minecraft.item.ItemStack
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.items.CapabilityItemHandler
+Import: net.minecraftforge.items.IItemHandler
+Import: net.minecraftforge.items.SlotItemHandler
+End  Processing: com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/ContainerSandstoneFurnace.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/GuiSanstoneFurnace.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/GuiSanstoneFurnace/GuiSanstoneFurnace (Lnet/minecraft/entity/player/InventoryPlayer;Lcom/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/TileEntitySandstoneFurnace;)V com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/GuiSanstoneFurnace
+Rename method net/minecraft/client/gui/inventory/GuiContainer/drawGuiContainerForegroundLayer (II)V[846,877]::drawGuiContainerForegroundLayer->func_146979_b
+Rename method net/minecraft/tileentity/TileEntity/getDisplayName ()Lnet/minecraft/util/text/ITextComponent;[945,959]::getDisplayName->func_145748_c_
+Rename method net/minecraft/util/text/ITextComponent/getUnformattedText ()Ljava/lang/String;[962,980]::getUnformattedText->func_150260_c
+Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[986,998]::fontRenderer->field_146289_q
+Rename method net/minecraft/client/gui/FontRenderer/drawString (Ljava/lang/String;III)I[1001,1011]::drawString->func_78276_b
+Rename field net/minecraft/client/gui/inventory/GuiContainer/xSize[1030,1035]::xSize->field_146999_f
+Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[1056,1068]::fontRenderer->field_146289_q
+Rename method net/minecraft/client/gui/FontRenderer/getStringWidth (Ljava/lang/String;)I[1071,1085]::getStringWidth->func_78256_a
+Rename field net/minecraft/client/gui/GuiScreen/fontRenderer[1124,1136]::fontRenderer->field_146289_q
+Rename method net/minecraft/client/gui/FontRenderer/drawString (Ljava/lang/String;III)I[1139,1149]::drawString->func_78276_b
+Rename method net/minecraft/world/IWorldNameable/getDisplayName ()Lnet/minecraft/util/text/ITextComponent;[1164,1178]::getDisplayName->func_145748_c_
+Rename method net/minecraft/util/text/ITextComponent/getUnformattedText ()Ljava/lang/String;[1181,1199]::getUnformattedText->func_150260_c
+Rename field net/minecraft/client/gui/inventory/GuiContainer/ySize[1208,1213]::ySize->field_147000_g
+Rename method net/minecraft/client/gui/inventory/GuiContainer/drawGuiContainerBackgroundLayer (FII)V[1275,1306]::drawGuiContainerBackgroundLayer->func_146976_a
+Rename method net/minecraft/client/renderer/GlStateManager/color (FFFF)V[1353,1358]::color->func_179131_c
+Rename field net/minecraft/client/gui/GuiScreen/mc[1399,1401]::mc->field_146297_k
+Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[1414,1431]::getTextureManager->func_110434_K
+Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[1430,1441]::bindTexture->func_110577_a
+Rename method net/minecraft/client/gui/Gui/drawTexturedModalRect (IIIIII)V[1462,1483]::drawTexturedModalRect->func_73729_b
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiLeft[1480,1487]::guiLeft->field_147003_i
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiTop[1501,1507]::guiTop->field_147009_r
+Rename field net/minecraft/client/gui/inventory/GuiContainer/xSize[1528,1533]::xSize->field_146999_f
+Rename field net/minecraft/client/gui/inventory/GuiContainer/ySize[1549,1554]::ySize->field_147000_g
+Rename method net/minecraft/client/gui/Gui/drawTexturedModalRect (IIIIII)V[1675,1696]::drawTexturedModalRect->func_73729_b
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiLeft[1693,1700]::guiLeft->field_147003_i
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiTop[1719,1725]::guiTop->field_147009_r
+Rename method net/minecraft/client/gui/Gui/drawTexturedModalRect (IIIIII)V[1830,1851]::drawTexturedModalRect->func_73729_b
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiLeft[1848,1855]::guiLeft->field_147003_i
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiTop[1874,1880]::guiTop->field_147009_r
+Import: com.Mortimyrrh.MyrrhTech.util.Reference
+Import: net.minecraft.client.gui.inventory.GuiContainer
+Import: net.minecraft.client.renderer.GlStateManager
+Import: net.minecraft.entity.player.InventoryPlayer
+Import: net.minecraft.util.ResourceLocation
+End  Processing: com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/GuiSanstoneFurnace.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/SandstoneFurnace.java
+Rename field net/minecraft/block/BlockHorizontal/FACING[1467,1473]::FACING->field_185512_D
+Rename method net/minecraft/block/properties/PropertyBool/create (Ljava/lang/String;)Lnet/minecraft/block/properties/PropertyBool;[1541,1547]::create->func_177716_a
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/SandstoneFurnace/SandstoneFurnace (Ljava/lang/String;)V com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/SandstoneFurnace
+Rename field net/minecraft/block/material/Material/IRON[1634,1638]::IRON->field_151573_f
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1653,1665]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1677,1682]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1696,1707]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1716,1729]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1737,1750]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[1762,1777]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/blockState[1781,1791]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[1796,1808]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[1812,1824]::withProperty->func_177226_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[1852,1864]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getItemDropped (Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;[1916,1930]::getItemDropped->func_180660_a
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1993,2009]::getItemFromBlock->func_150898_a
+Rename method net/minecraft/block/Block/getItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/item/ItemStack;[2071,2078]::getItem->func_185473_a
+Rename method net/minecraft/block/Block/onBlockActivated (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z[2221,2237]::onBlockActivated->func_180639_a
+Rename field net/minecraft/world/World/isRemote[2394,2402]::isRemote->field_72995_K
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2494,2498]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2515,2519]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2536,2540]::getZ->func_177952_p
+Rename method net/minecraft/block/Block/onBlockAdded (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[2605,2617]::onBlockAdded->func_176213_c
+Rename field net/minecraft/world/World/isRemote[2686,2694]::isRemote->field_72995_K
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2752,2765]::getBlockState->func_180495_p
+Rename method net/minecraft/util/math/BlockPos/north ()Lnet/minecraft/util/math/BlockPos;[2770,2775]::north->func_177978_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2828,2841]::getBlockState->func_180495_p
+Rename method net/minecraft/util/math/BlockPos/south ()Lnet/minecraft/util/math/BlockPos;[2846,2851]::south->func_177968_d
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2903,2916]::getBlockState->func_180495_p
+Rename method net/minecraft/util/math/BlockPos/west ()Lnet/minecraft/util/math/BlockPos;[2921,2925]::west->func_177976_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2978,2991]::getBlockState->func_180495_p
+Rename method net/minecraft/util/math/BlockPos/east ()Lnet/minecraft/util/math/BlockPos;[2996,3000]::east->func_177974_f
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3062,3070]::getValue->func_177229_b
+Rename method net/minecraft/block/state/IBlockProperties/isFullBlock ()Z[3136,3147]::isFullBlock->func_185913_b
+Rename method net/minecraft/block/state/IBlockProperties/isFullBlock ()Z[3162,3173]::isFullBlock->func_185913_b
+Rename method net/minecraft/block/state/IBlockProperties/isFullBlock ()Z[3259,3270]::isFullBlock->func_185913_b
+Rename method net/minecraft/block/state/IBlockProperties/isFullBlock ()Z[3285,3296]::isFullBlock->func_185913_b
+Rename method net/minecraft/block/state/IBlockProperties/isFullBlock ()Z[3380,3391]::isFullBlock->func_185913_b
+Rename method net/minecraft/block/state/IBlockProperties/isFullBlock ()Z[3405,3416]::isFullBlock->func_185913_b
+Rename method net/minecraft/block/state/IBlockProperties/isFullBlock ()Z[3499,3510]::isFullBlock->func_185913_b
+Rename method net/minecraft/block/state/IBlockProperties/isFullBlock ()Z[3524,3535]::isFullBlock->func_185913_b
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[3585,3598]::setBlockState->func_180501_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3610,3622]::withProperty->func_177226_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3766,3779]::getBlockState->func_180495_p
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[3820,3833]::getTileEntity->func_175625_s
+Rename method net/minecraft/tileentity/TileEntity/validate ()V[4217,4225]::validate->func_145829_t
+Rename method net/minecraft/world/World/setTileEntity (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/tileentity/TileEntity;)V[4245,4258]::setTileEntity->func_175690_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4703,4718]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4719,4731]::withProperty->func_177226_a
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[4748,4767]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[4765,4776]::getOpposite->func_176734_d
+Rename method net/minecraft/block/Block/onBlockPlacedBy (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V[4812,4827]::onBlockPlacedBy->func_180633_a
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[4930,4943]::setBlockState->func_180501_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4954,4969]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4970,4982]::withProperty->func_177226_a
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[4999,5018]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[5016,5027]::getOpposite->func_176734_d
+Rename method net/minecraft/block/Block/getRenderType (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/util/EnumBlockRenderType;[5082,5095]::getRenderType->func_149645_b
+Rename method net/minecraft/block/Block/withRotation (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[5191,5203]::withRotation->func_185499_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[5256,5268]::withProperty->func_177226_a
+Rename method net/minecraft/util/Rotation/rotate (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;[5282,5288]::rotate->func_185831_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[5314,5322]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/withMirror (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;[5375,5385]::withMirror->func_185471_a
+Rename method net/minecraft/block/state/IBlockProperties/withRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[5444,5456]::withRotation->func_185907_a
+Rename method net/minecraft/util/Mirror/toRotation (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;[5467,5477]::toRotation->func_185800_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[5499,5507]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[5571,5587]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[5701,5717]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/util/EnumFacing/getFront (I)Lnet/minecraft/util/EnumFacing;[5762,5770]::getFront->func_82600_a
+Rename method net/minecraft/util/EnumFacing/getAxis ()Lnet/minecraft/util/EnumFacing$Axis;[5794,5801]::getAxis->func_176740_k
+New Key: class net/minecraft/util/EnumFacing
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[5873,5888]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[5889,5901]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[5948,5964]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[6013,6021]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[6036,6044]::getIndex->func_176745_a
+Import: java.io.Console
+Import: java.util.Random
+Import: com.Mortimyrrh.MyrrhTech.Main
+Import: com.Mortimyrrh.MyrrhTech.Init.ModBlocks
+Import: com.Mortimyrrh.MyrrhTech.blocks.BlockBase
+Import: com.Mortimyrrh.MyrrhTech.util.Reference
+Import: akka.event.Logging.LogEvent
+Import: net.minecraft.block.BlockHorizontal
+Import: net.minecraft.block.ITileEntityProvider
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.properties.IProperty
+Import: net.minecraft.block.properties.PropertyBool
+Import: net.minecraft.block.properties.PropertyDirection
+Import: net.minecraft.block.state.BlockStateContainer
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.entity.EntityLivingBase
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.inventory.InventoryHelper
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.tileentity.TileEntity
+Import: net.minecraft.tileentity.TileEntityBrewingStand
+Import: net.minecraft.util.EnumBlockRenderType
+Import: net.minecraft.util.EnumFacing
+Import: net.minecraft.util.EnumHand
+Import: net.minecraft.util.Mirror
+Import: net.minecraft.util.Rotation
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.world.World
+End  Processing: com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/SandstoneFurnace.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/SandstoneFurnaceRecipes.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/SandstoneFurnaceRecipes/SandstoneFurnaceRecipes ()V com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/SandstoneFurnaceRecipes
+Rename field net/minecraft/init/Blocks/COBBLESTONE[878,889]::COBBLESTONE->field_150347_e
+Rename field net/minecraft/init/Blocks/COBBLESTONE[916,927]::COBBLESTONE->field_150347_e
+Rename field net/minecraft/item/ItemStack/EMPTY[1144,1149]::EMPTY->field_190927_a
+Rename field net/minecraft/item/ItemStack/EMPTY[1769,1774]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1880,1887]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1905,1912]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getMetadata ()I[1931,1942]::getMetadata->func_77960_j
+Rename method net/minecraft/item/ItemStack/getMetadata ()I[1965,1976]::getMetadata->func_77960_j
+Rename method net/minecraft/item/ItemStack/getMetadata ()I[1990,2001]::getMetadata->func_77960_j
+Import: java.util.Map
+Import: java.util.Map.Entry
+Import: com.Mortimyrrh.MyrrhTech.Init.ModBlocks
+Import: com.google.common.collect.HashBasedTable
+Import: com.google.common.collect.Maps
+Import: com.google.common.collect.Table
+Import: net.minecraft.init.Blocks
+Import: net.minecraft.item.ItemStack
+End  Processing: com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/SandstoneFurnaceRecipes.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/TileEntitySandstoneFurnace.java
+Rename field net/minecraft/item/ItemStack/EMPTY[1327,1332]::EMPTY->field_190927_a
+Rename method net/minecraft/tileentity/TileEntity/getDisplayName ()Lnet/minecraft/util/text/ITextComponent;[2111,2125]::getDisplayName->func_145748_c_
+Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[2287,2298]::readFromNBT->func_145839_a
+Rename method net/minecraft/tileentity/TileEntity/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[2337,2348]::readFromNBT->func_145839_a
+Rename method net/minecraft/nbt/NBTTagCompound/getCompoundTag (Ljava/lang/String;)Lnet/minecraft/nbt/NBTTagCompound;[2401,2415]::getCompoundTag->func_74775_l
+Rename method net/minecraft/nbt/NBTTagCompound/getInteger (Ljava/lang/String;)I[2456,2466]::getInteger->func_74762_e
+Rename method net/minecraft/nbt/NBTTagCompound/getInteger (Ljava/lang/String;)I[2509,2519]::getInteger->func_74762_e
+Rename method net/minecraft/nbt/NBTTagCompound/getInteger (Ljava/lang/String;)I[2567,2577]::getInteger->func_74762_e
+Rename method net/minecraft/nbt/NBTTagCompound/hasKey (Ljava/lang/String;I)Z[2700,2706]::hasKey->func_150297_b
+Rename method net/minecraft/nbt/NBTTagCompound/getString (Ljava/lang/String;)Ljava/lang/String;[2760,2769]::getString->func_74779_i
+Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[2828,2838]::writeToNBT->func_189515_b
+Rename method net/minecraft/tileentity/TileEntity/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[2879,2889]::writeToNBT->func_189515_b
+Rename method net/minecraft/nbt/NBTTagCompound/setInteger (Ljava/lang/String;I)V[2915,2925]::setInteger->func_74768_a
+Rename method net/minecraft/nbt/NBTTagCompound/setInteger (Ljava/lang/String;I)V[2974,2984]::setInteger->func_74768_a
+Rename method net/minecraft/nbt/NBTTagCompound/setInteger (Ljava/lang/String;I)V[3033,3043]::setInteger->func_74768_a
+Rename method net/minecraft/nbt/NBTTagCompound/setTag (Ljava/lang/String;Lnet/minecraft/nbt/NBTBase;)V[3102,3108]::setTag->func_74782_a
+Rename method net/minecraft/nbt/NBTTagCompound/setString (Ljava/lang/String;Ljava/lang/String;)V[3197,3206]::setString->func_74778_a
+Rename method net/minecraft/util/ITickable/update ()V[3479,3485]::update->func_73660_a
+Rename field net/minecraft/tileentity/TileEntity/world[3581,3586]::world->field_145850_b
+Rename field net/minecraft/tileentity/TileEntity/pos[3597,3600]::pos->field_174879_c
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[3801,3808]::isEmpty->func_190926_b
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[3852,3859]::isEmpty->func_190926_b
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[3902,3909]::isEmpty->func_190926_b
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[4090,4097]::isEmpty->func_190926_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[4135,4142]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/shrink (I)V[4161,4167]::shrink->func_190918_g
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[4198,4205]::isEmpty->func_190926_b
+Rename method net/minecraft/item/ItemStack/getCount ()I[4493,4501]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/grow (I)V[4551,4555]::grow->func_190917_f
+Rename field net/minecraft/item/ItemStack/EMPTY[4671,4676]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[4903,4910]::isEmpty->func_190926_b
+Rename method net/minecraft/item/ItemStack/shrink (I)V[4982,4988]::shrink->func_190918_g
+Rename method net/minecraft/item/ItemStack/shrink (I)V[5015,5021]::shrink->func_190918_g
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[5220,5227]::isEmpty->func_190926_b
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[5283,5290]::isEmpty->func_190926_b
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[5506,5513]::isEmpty->func_190926_b
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[5630,5637]::isEmpty->func_190926_b
+Rename method net/minecraft/item/ItemStack/isItemEqual (Lnet/minecraft/item/ItemStack;)Z[5675,5686]::isItemEqual->func_77969_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[5732,5740]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/getCount ()I[5757,5765]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/getMaxStackSize ()I[5812,5827]::getMaxStackSize->func_77976_d
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[5907,5914]::isEmpty->func_190926_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[5966,5973]::getItem->func_77973_b
+Rename method net/minecraft/block/Block/getBlockFromItem (Lnet/minecraft/item/Item;)Lnet/minecraft/block/Block;[6025,6041]::getBlockFromItem->func_149634_a
+Rename field net/minecraft/init/Blocks/AIR[6055,6058]::AIR->field_150350_a
+Rename method net/minecraft/block/Block/getBlockFromItem (Lnet/minecraft/item/Item;)Lnet/minecraft/block/Block;[6101,6117]::getBlockFromItem->func_149634_a
+Rename field net/minecraft/init/Blocks/WOODEN_SLAB[6147,6158]::WOODEN_SLAB->field_150376_bx
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[6190,6205]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[6206,6217]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/WOOD[6234,6238]::WOOD->field_151575_d
+Rename field net/minecraft/init/Blocks/COAL_BLOCK[6286,6296]::COAL_BLOCK->field_150402_ci
+Rename method net/minecraft/item/ItemTool/getToolMaterialName ()Ljava/lang/String;[6389,6408]::getToolMaterialName->func_77861_e
+Rename method net/minecraft/item/ItemSword/getToolMaterialName ()Ljava/lang/String;[6486,6505]::getToolMaterialName->func_150932_j
+Rename method net/minecraft/item/ItemHoe/getMaterialName ()Ljava/lang/String;[6580,6595]::getMaterialName->func_77842_f
+Rename field net/minecraft/init/Items/STICK[6630,6635]::STICK->field_151055_y
+Rename field net/minecraft/init/Items/COAL[6679,6683]::COAL->field_151044_h
+Rename field net/minecraft/init/Items/LAVA_BUCKET[6729,6740]::LAVA_BUCKET->field_151129_at
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[6780,6796]::getItemFromBlock->func_150898_a
+Rename field net/minecraft/init/Blocks/SAPLING[6801,6808]::SAPLING->field_150345_g
+Rename field net/minecraft/init/Items/BLAZE_ROD[6851,6860]::BLAZE_ROD->field_151072_bj
+Rename field net/minecraft/init/Items/REEDS[6902,6907]::REEDS->field_151120_aE
+Rename field net/minecraft/tileentity/TileEntity/world[7154,7159]::world->field_145850_b
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[7169,7182]::getTileEntity->func_175625_s
+Rename field net/minecraft/tileentity/TileEntity/pos[7188,7191]::pos->field_174879_c
+Rename method net/minecraft/entity/Entity/getDistanceSq (DDD)D[7229,7242]::getDistanceSq->func_70092_e
+Rename field net/minecraft/tileentity/TileEntity/pos[7255,7258]::pos->field_174879_c
+Rename method net/minecraft/util/math/Vec3i/getX ()I[7270,7274]::getX->func_177958_n
+Rename field net/minecraft/tileentity/TileEntity/pos[7307,7310]::pos->field_174879_c
+Rename method net/minecraft/util/math/Vec3i/getY ()I[7322,7326]::getY->func_177956_o
+Rename field net/minecraft/tileentity/TileEntity/pos[7359,7362]::pos->field_174879_c
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[7374,7378]::getZ->func_177952_p
+Import: net.minecraft.block.Block
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.init.Blocks
+Import: net.minecraft.init.Items
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.ItemHoe
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.item.ItemSword
+Import: net.minecraft.item.ItemTool
+Import: net.minecraft.nbt.NBTTagCompound
+Import: net.minecraft.tileentity.TileEntity
+Import: net.minecraft.util.EnumFacing
+Import: net.minecraft.util.ITickable
+Import: net.minecraft.util.text.ITextComponent
+Import: net.minecraft.util.text.TextComponentString
+Import: net.minecraft.util.text.TextComponentTranslation
+Import: net.minecraftforge.common.capabilities.Capability
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.items.CapabilityItemHandler
+Import: net.minecraftforge.items.ItemStackHandler
+End  Processing: com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/TileEntitySandstoneFurnace.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/slots/SlotSandstoneFurnaceFuel.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/slots/SlotSandstoneFurnaceFuel/SlotSandstoneFurnaceFuel (Lnet/minecraftforge/items/IItemHandler;III)V com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/slots/SlotSandstoneFurnaceFuel
+Rename method net/minecraft/inventory/Slot/isItemValid (Lnet/minecraft/item/ItemStack;)Z[589,600]::isItemValid->func_75214_a
+Rename method net/minecraft/inventory/Slot/getItemStackLimit (Lnet/minecraft/item/ItemStack;)I[704,721]::getItemStackLimit->func_178170_b
+Rename method net/minecraft/inventory/Slot/getItemStackLimit (Lnet/minecraft/item/ItemStack;)I[752,769]::getItemStackLimit->func_178170_b
+Rename method net/minecraft/inventory/Slot/onSlotChanged ()V[803,816]::onSlotChanged->func_75218_e
+Rename method net/minecraft/inventory/Slot/onSlotChanged ()V[828,841]::onSlotChanged->func_75218_e
+Import: com.Mortimyrrh.MyrrhTech.blocks.machines.SandstoneFurnace.TileEntitySandstoneFurnace
+Import: net.minecraft.inventory.Slot
+Import: net.minecraft.item.ItemStack
+Import: net.minecraftforge.items.IItemHandler
+Import: net.minecraftforge.items.SlotItemHandler
+End  Processing: com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/slots/SlotSandstoneFurnaceFuel.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/slots/SlotSandstoneFurnaceOutput.java
+FOUND CONSTR method com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/slots/SlotSandstoneFurnaceOutput/SlotSandstoneFurnaceOutput (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraftforge/items/IItemHandler;III)V com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/slots/SlotSandstoneFurnaceOutput
+Rename method net/minecraft/inventory/Slot/isItemValid (Lnet/minecraft/item/ItemStack;)Z[637,648]::isItemValid->func_75214_a
+Rename method net/minecraft/inventory/Slot/onTake (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;[719,725]::onTake->func_190901_a
+Rename method net/minecraft/inventory/Slot/onCrafting (Lnet/minecraft/item/ItemStack;)V[785,795]::onCrafting->func_75208_c
+Rename method net/minecraft/inventory/Slot/onTake (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/ItemStack;[814,820]::onTake->func_190901_a
+Rename method net/minecraft/inventory/Slot/decrStackSize (I)Lnet/minecraft/item/ItemStack;[897,910]::decrStackSize->func_75209_a
+Rename method net/minecraft/inventory/Slot/getHasStack ()Z[936,947]::getHasStack->func_75216_d
+Rename method net/minecraft/inventory/Slot/getStack ()Lnet/minecraft/item/ItemStack;[994,1002]::getStack->func_75211_c
+Rename method net/minecraft/item/ItemStack/getCount ()I[1009,1017]::getCount->func_190916_E
+Rename method net/minecraft/inventory/Slot/decrStackSize (I)Lnet/minecraft/item/ItemStack;[1042,1055]::decrStackSize->func_75209_a
+Rename method net/minecraft/inventory/Slot/onSlotChanged ()V[1093,1106]::onSlotChanged->func_75218_e
+Rename method net/minecraft/inventory/Slot/onSlotChanged ()V[1118,1131]::onSlotChanged->func_75218_e
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.inventory.Slot
+Import: net.minecraft.item.ItemStack
+Import: net.minecraftforge.items.IItemHandler
+Import: net.minecraftforge.items.SlotItemHandler
+End  Processing: com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/slots/SlotSandstoneFurnaceOutput.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/util/IHasModel.java
+End  Processing: com/Mortimyrrh/MyrrhTech/util/IHasModel.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/util/Reference.java
+End  Processing: com/Mortimyrrh/MyrrhTech/util/Reference.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/util/handlers/GuiHandler.java
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[801,810]::inventory->field_71071_by
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[851,864]::getTileEntity->func_175625_s
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[1101,1110]::inventory->field_71071_by
+Rename method net/minecraft/world/IBlockAccess/getTileEntity (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/tileentity/TileEntity;[1151,1164]::getTileEntity->func_175625_s
+Import: com.Mortimyrrh.MyrrhTech.blocks.machines.SandstoneFurnace.ContainerSandstoneFurnace
+Import: com.Mortimyrrh.MyrrhTech.blocks.machines.SandstoneFurnace.GuiSanstoneFurnace
+Import: com.Mortimyrrh.MyrrhTech.blocks.machines.SandstoneFurnace.TileEntitySandstoneFurnace
+Import: com.Mortimyrrh.MyrrhTech.util.Reference
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.world.World
+Import: net.minecraftforge.fml.common.network.IGuiHandler
+End  Processing: com/Mortimyrrh/MyrrhTech/util/handlers/GuiHandler.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/util/handlers/RegistryHandler.java
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: com.Mortimyrrh.MyrrhTech.Main
+Import: com.Mortimyrrh.MyrrhTech.Init.ModBlocks
+Import: com.Mortimyrrh.MyrrhTech.Init.ModItems
+Import: com.Mortimyrrh.MyrrhTech.blocks.machines.SandstoneFurnace.TileEntitySandstoneFurnace
+Import: com.Mortimyrrh.MyrrhTech.util.IHasModel
+Import: net.minecraft.block.Block
+Import: net.minecraft.item.Item
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.fml.common.Mod.EventBusSubscriber
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.network.NetworkRegistry
+End  Processing: com/Mortimyrrh/MyrrhTech/util/handlers/RegistryHandler.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/util/handlers/TileEntityHandler.java
+Import: com.Mortimyrrh.MyrrhTech.blocks.machines.SandstoneFurnace.TileEntitySandstoneFurnace
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+End  Processing: com/Mortimyrrh/MyrrhTech/util/handlers/TileEntityHandler.java
+
+Start Processing: com/Mortimyrrh/MyrrhTech/world/ModWorldGen.java
+Rename field net/minecraft/world/World/provider[662,670]::provider->field_73011_w
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[977,992]::getDefaultState->func_176223_P
+Rename method net/minecraft/world/gen/feature/WorldGenerator/generate (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z[1467,1475]::generate->func_180709_b
+Import: java.util.Random
+Import: com.Mortimyrrh.MyrrhTech.Init.ModBlocks
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.world.World
+Import: net.minecraft.world.chunk.IChunkProvider
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.gen.feature.WorldGenMinable
+Import: net.minecraftforge.fml.common.IWorldGenerator
+End  Processing: com/Mortimyrrh/MyrrhTech/world/ModWorldGen.java
+

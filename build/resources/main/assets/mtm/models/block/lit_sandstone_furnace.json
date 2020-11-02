@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "mtm:blocks/sandstone_furnace_off",
+        "up": "mtm:blocks/sandstone_furnace_top",
+        "down": "mtm:blocks/sandstone_furnace_top",
+        "north": "mtm:blocks/sandstone_furnace_on",
+        "east": "mtm:blocks/sandstone_furnace_side",
+        "south": "mtm:blocks/sandstone_furnace_side",
+        "west": "mtm:blocks/sandstone_furnace_side"
+    }
+}

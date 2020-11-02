@@ -1,0 +1,91 @@
+Unsupposrted library path: /Users/mortimer/Documents/Code/MinecraftMod/MyrrhTech/build/classes/api
+Unsupposrted library path: /Users/mortimer/Documents/Code/MinecraftMod/MyrrhTech/build/resources/api
+Symbol range map extraction starting
+Processing 29 files
+startProcessing "com/Mortimyrrh/MyrrhTech/Init/ModBlocks.java" md5: d9b23b1b09e4d272f2081488d218e61b
+endProcessing "com/Mortimyrrh/MyrrhTech/Init/ModBlocks.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/Init/ModItems.java" md5: abe78f2456aa22db972f8fe030eb053c
+endProcessing "com/Mortimyrrh/MyrrhTech/Init/ModItems.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/Items/ItemBase.java" md5: 2a6f8c3654618fc560d75af64cfbf5c0
+endProcessing "com/Mortimyrrh/MyrrhTech/Items/ItemBase.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/Items/armor/ArmorBase.java" md5: 13b00d393d74d3bb0a94895542efeef5
+endProcessing "com/Mortimyrrh/MyrrhTech/Items/armor/ArmorBase.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/Items/tools/ToolAxe.java" md5: 6d50840284e88c8aec023ae4ff4cf49d
+endProcessing "com/Mortimyrrh/MyrrhTech/Items/tools/ToolAxe.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/Items/tools/ToolHoe.java" md5: 7c3b164bbd4694464d28e9d1e21799c9
+endProcessing "com/Mortimyrrh/MyrrhTech/Items/tools/ToolHoe.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/Items/tools/ToolPickaxe.java" md5: 48c62aa75a0f03e0fd89b02147b0db68
+endProcessing "com/Mortimyrrh/MyrrhTech/Items/tools/ToolPickaxe.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/Items/tools/ToolSpade.java" md5: 7ee07dda654735bfd44b01985fbc9959
+endProcessing "com/Mortimyrrh/MyrrhTech/Items/tools/ToolSpade.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/Items/tools/ToolSword.java" md5: d12fefb0b33f4173ad0a06958e256e02
+endProcessing "com/Mortimyrrh/MyrrhTech/Items/tools/ToolSword.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/Main.java" md5: f5b30608900b5312c1279fbf12b2e68a
+endProcessing "com/Mortimyrrh/MyrrhTech/Main.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/Proxy/ClientProxy.java" md5: 19ed0850c8c621887de00ab0bdf4ce62
+endProcessing "com/Mortimyrrh/MyrrhTech/Proxy/ClientProxy.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/Proxy/CommonProxy.java" md5: c50333fd062ef512eec5df6c4005203f
+endProcessing "com/Mortimyrrh/MyrrhTech/Proxy/CommonProxy.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/blocks/BlockBase.java" md5: 56d1a8ffa104242583597a6f93002b46
+endProcessing "com/Mortimyrrh/MyrrhTech/blocks/BlockBase.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/blocks/RossBlock.java" md5: c0655d58deac6d12a4a4e995943d2fc8
+endProcessing "com/Mortimyrrh/MyrrhTech/blocks/RossBlock.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/blocks/RubyBlock.java" md5: f025abe1b7996abbc0b5dd30adf0ea3b
+endProcessing "com/Mortimyrrh/MyrrhTech/blocks/RubyBlock.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/blocks/RubyOre.java" md5: d2bcbd1ab3b623c3bfcf4677aab9cb2a
+endProcessing "com/Mortimyrrh/MyrrhTech/blocks/RubyOre.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/ContainerSandstoneFurnace.java" md5: b5c878be3cfcdaf36c3d99a12331a448
+endProcessing "com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/ContainerSandstoneFurnace.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/GuiSanstoneFurnace.java" md5: f06864352d2a2a43c6f2d7fe5c0b8c45
+endProcessing "com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/GuiSanstoneFurnace.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/SandstoneFurnace.java" md5: d508c4ad20e1dc6b3e40dbb9309d1cf8
+endProcessing "com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/SandstoneFurnace.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/SandstoneFurnaceRecipes.java" md5: 5795fd38e109cbc0fa38a2eec9057c91
+endProcessing "com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/SandstoneFurnaceRecipes.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/TileEntitySandstoneFurnace.java" md5: 9108a4b99aa1a57d1513373d802c3d62
+endProcessing "com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/TileEntitySandstoneFurnace.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/slots/SlotSandstoneFurnaceFuel.java" md5: 69e0b492161dae1abb703db9cd4569b5
+endProcessing "com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/slots/SlotSandstoneFurnaceFuel.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/slots/SlotSandstoneFurnaceOutput.java" md5: fe008c4f80ab7400afbf57afee4e5e57
+endProcessing "com/Mortimyrrh/MyrrhTech/blocks/machines/SandstoneFurnace/slots/SlotSandstoneFurnaceOutput.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/util/IHasModel.java" md5: 61c6c8298518bf6610c69e2d1602d7a0
+endProcessing "com/Mortimyrrh/MyrrhTech/util/IHasModel.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/util/Reference.java" md5: f29939be7a11516b79a06f62d01cc1e9
+endProcessing "com/Mortimyrrh/MyrrhTech/util/Reference.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/util/handlers/GuiHandler.java" md5: 6a2982b0f1f7020fcdef1940f9154c39
+endProcessing "com/Mortimyrrh/MyrrhTech/util/handlers/GuiHandler.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/util/handlers/RegistryHandler.java" md5: 17f8f388f5be84add499a4d8a373eb6c
+endProcessing "com/Mortimyrrh/MyrrhTech/util/handlers/RegistryHandler.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/util/handlers/TileEntityHandler.java" md5: cd98bdcededbfad5f7e99c37e5eb0d3b
+endProcessing "com/Mortimyrrh/MyrrhTech/util/handlers/TileEntityHandler.java"
+
+startProcessing "com/Mortimyrrh/MyrrhTech/world/ModWorldGen.java" md5: fca6bd9d1d34b7200705ef02a6d31267
+endProcessing "com/Mortimyrrh/MyrrhTech/world/ModWorldGen.java"
+

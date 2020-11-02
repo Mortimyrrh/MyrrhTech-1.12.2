@@ -3350,3 +3350,16 @@ org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY org.eclipse.debug.core 4 120 2020-10-31 01:58:29.730
 !MESSAGE Variable references empty selection: ${project_loc}
+!SESSION 2020-10-31 12:05:02.028 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/mortimer/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/mortimer/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-10-31 12:10:06.227
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2020-10-31 12:10:06.253
+!MESSAGE Using Apache MINA sshd as ssh client.

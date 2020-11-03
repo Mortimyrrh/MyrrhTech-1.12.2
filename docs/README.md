@@ -1,5 +1,5 @@
 
-/docs/assets/MyrrhTechLogo.png
+https://github.com/Mortimyrrh/MyrrhTech-1.12.2/blob/main/docs/assets/MyrrhTechLogo.png
 
 MyrrhTech is a free, open-source Forge mod created by Mortimyrrh and hopefully joined by a few other friends soon.
 

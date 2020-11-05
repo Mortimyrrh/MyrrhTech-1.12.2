@@ -109,7 +109,7 @@ public class ContainerSandstoneFurnace extends Container
 			}
 			else if(index != 2 && index != 1 && index != 0) 
 			{		
-				Slot slot1 = (Slot)this.inventorySlots.get(index + 1);
+				Slot slot1 = (Slot)this.inventorySlots.get(index + 1); // CRASHES
 				
 				if(!SandstoneFurnaceRecipes.getInstance().getSandstoneResult(stack1, slot1.getStack()).isEmpty())
 				{

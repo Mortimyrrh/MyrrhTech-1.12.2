@@ -1,0 +1,13 @@
+{
+    "variants": 
+    {
+        "blasting=false,facing=north": { "model": "mtm:blasting_chamber" },
+        "blasting=false,facing=east": { "model": "mtm:blasting_chamber", "y": 90 },
+        "blasting=false,facing=south": { "model": "mtm:blasting_chamber", "y": 180 },
+        "blasting=false,facing=west": { "model": "mtm:blasting_chamber", "y": 270 },
+        "blasting=true,facing=north": { "model": "mtm:active_blasting_chamber" },
+        "blasting=true,facing=east": { "model": "mtm:active_blasting_chamber", "y": 90 },
+        "blasting=true,facing=south": { "model": "mtm:active_blasting_chamber", "y": 180 },
+        "blasting=true,facing=west": { "model": "mtm:active_blasting_chamber", "y":270  }
+    }
+}

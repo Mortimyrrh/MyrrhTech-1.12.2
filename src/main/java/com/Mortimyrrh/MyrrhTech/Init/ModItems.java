@@ -45,8 +45,8 @@ public class ModItems {
 	public static final ItemSword RUBY_SWORD 		= new ToolSword("ruby_sword", MATERIAL_RUBY);
 	public static final ItemSpade RUBY_SHOVEL 		= new ToolSpade("ruby_shovel", MATERIAL_RUBY);
 	public static final ItemPickaxe RUBY_PICKAXE 	= new ToolPickaxe("ruby_pickaxe", MATERIAL_RUBY);
-	public static final ItemAxe RUBY_AXE 			= new ToolAxe("ruby_Axe", MATERIAL_RUBY);
-	public static final ItemHoe RUBY_HOE 			= new ToolHoe("ruby_Hoe", MATERIAL_RUBY);
+	public static final ItemAxe RUBY_AXE 			= new ToolAxe("ruby_axe", MATERIAL_RUBY);
+	public static final ItemHoe RUBY_HOE 			= new ToolHoe("ruby_hoe", MATERIAL_RUBY);
 	
 	// Armor
 	public static final Item RUBY_HELMET 			= new ArmorBase("ruby_helmet", 		ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.HEAD);

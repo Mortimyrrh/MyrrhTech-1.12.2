@@ -110,7 +110,7 @@ public class TileEntitySandstoneFurnace extends TileEntity implements ITickable
 			--this.burnTime;
 			SandstoneFurnace.setState(true, world, pos);
 		}
-		
+				
 		ItemStack[] inputs = new ItemStack[] {handler.getStackInSlot(0), handler.getStackInSlot(1)};
 		ItemStack fuel = this.handler.getStackInSlot(2);
 		

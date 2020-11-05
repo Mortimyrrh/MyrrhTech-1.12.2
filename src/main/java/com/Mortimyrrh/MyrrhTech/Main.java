@@ -1,10 +1,12 @@
 package com.Mortimyrrh.MyrrhTech;
 
+import com.Mortimyrrh.MyrrhTech.Init.MyrrhTechCreativeTab;
 import com.Mortimyrrh.MyrrhTech.Proxy.CommonProxy;
 import com.Mortimyrrh.MyrrhTech.util.Reference;
 import com.Mortimyrrh.MyrrhTech.util.handlers.RegistryHandler;
 import com.Mortimyrrh.MyrrhTech.world.ModWorldGen;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -20,12 +22,11 @@ public class Main {
 	
 	@Instance
 	public static Main instance;
+	
+	public static final CreativeTabs MYRRHTECH_TAB = new MyrrhTechCreativeTab();
 
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
-	
-	
-	//public static final CreativeTabs MYRRHTECH = new My
 	
 	@EventHandler
 	public static void preInit(FMLPreInitializationEvent event) 

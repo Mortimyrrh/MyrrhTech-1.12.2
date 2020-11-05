@@ -11,4 +11,5 @@ public class Reference {
 	
 	
 	public static final int GUI_SANDSTONE_FURNACE	= 1;
+	public static final int GUI_BLASTING_CHAMBER	= 2;
 }

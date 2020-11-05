@@ -7,6 +7,7 @@ import com.Mortimyrrh.MyrrhTech.blocks.BlockBase;
 import com.Mortimyrrh.MyrrhTech.blocks.RossBlock;
 import com.Mortimyrrh.MyrrhTech.blocks.RubyBlock;
 import com.Mortimyrrh.MyrrhTech.blocks.RubyOre;
+import com.Mortimyrrh.MyrrhTech.blocks.machines.BlastingChamber.BlastingChamber;
 import com.Mortimyrrh.MyrrhTech.blocks.machines.SandstoneFurnace.SandstoneFurnace;
 
 import net.minecraft.block.Block;
@@ -22,6 +23,6 @@ public class ModBlocks
 	public static final Block ROSS_BLOCK 			= new RossBlock("ross_block", 	Material.ROCK);
 
 	public static final Block SANDSTONE_FURNACE 	= new SandstoneFurnace("sandstone_furnace");
-
+	public static final Block BLASTING_CHAMBER 		= new BlastingChamber("blasting_chamber");
 	
 }

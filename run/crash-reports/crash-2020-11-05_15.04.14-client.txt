@@ -1,0 +1,128 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 11/5/20 3:04 PM
+Description: Updating screen events
+
+java.lang.IndexOutOfBoundsException: Index: 40, Size: 40
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at com.Mortimyrrh.MyrrhTech.blocks.machines.SandstoneFurnace.ContainerSandstoneFurnace.transferStackInSlot(ContainerSandstoneFurnace.java:112)
+	at net.minecraft.inventory.Container.slotClick(Container.java:271)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.windowClick(PlayerControllerMP.java:610)
+	at net.minecraft.client.gui.inventory.GuiContainer.handleMouseClick(GuiContainer.java:693)
+	at net.minecraft.client.gui.inventory.GuiContainer.mouseClicked(GuiContainer.java:430)
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:611)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:576)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1885)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1187)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:441)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at com.Mortimyrrh.MyrrhTech.blocks.machines.SandstoneFurnace.ContainerSandstoneFurnace.transferStackInSlot(ContainerSandstoneFurnace.java:112)
+	at net.minecraft.inventory.Container.slotClick(Container.java:271)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.windowClick(PlayerControllerMP.java:610)
+	at net.minecraft.client.gui.inventory.GuiContainer.handleMouseClick(GuiContainer.java:693)
+	at net.minecraft.client.gui.inventory.GuiContainer.mouseClicked(GuiContainer.java:430)
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:611)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:576)
+
+-- Affected screen --
+Details:
+	Screen name: com.Mortimyrrh.MyrrhTech.blocks.machines.SandstoneFurnace.GuiSanstoneFurnace
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player805'/145, l='MpServer', x=-203.62, y=70.00, z=275.08]]
+	Chunk stats: MultiplayerChunkCache: 552, 552
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-200,64,278), Chunk: (at 8,4,6 in -13,17; contains blocks -208,0,272 to -193,255,287), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 20265 game time, 20265 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 71 total; [EntitySpider['Spider'/128, l='MpServer', x=-159.50, y=63.00, z=204.50], EntitySkeleton['Skeleton'/131, l='MpServer', x=-143.29, y=64.00, z=229.51], EntitySkeleton['Skeleton'/133, l='MpServer', x=-138.50, y=47.00, z=256.50], EntitySkeleton['Skeleton'/134, l='MpServer', x=-140.49, y=37.00, z=263.26], EntityCreeper['Creeper'/135, l='MpServer', x=-143.50, y=63.00, z=283.50], EntitySkeleton['Skeleton'/269, l='MpServer', x=-194.50, y=43.00, z=212.50], EntityCreeper['Creeper'/270, l='MpServer', x=-195.50, y=43.00, z=219.50], EntityBat['Bat'/148, l='MpServer', x=-168.42, y=30.62, z=326.66], EntityPlayerSP['Player805'/145, l='MpServer', x=-203.62, y=70.00, z=275.08], EntityZombie['Zombie'/42, l='MpServer', x=-283.50, y=64.00, z=237.50], EntityPig['Pig'/43, l='MpServer', x=-275.19, y=65.00, z=251.70], EntityBat['Bat'/44, l='MpServer', x=-272.75, y=53.10, z=271.75], EntityCreeper['Creeper'/46, l='MpServer', x=-277.32, y=65.00, z=261.17], EntitySheep['Sheep'/47, l='MpServer', x=-281.19, y=65.00, z=278.49], EntityCreeper['Creeper'/48, l='MpServer', x=-273.66, y=64.00, z=285.76], EntityBat['Bat'/50, l='MpServer', x=-233.25, y=11.11, z=236.75], EntitySheep['Sheep'/51, l='MpServer', x=-257.79, y=64.00, z=266.47], EntityPig['Pig'/52, l='MpServer', x=-271.39, y=64.00, z=263.52], EntityZombie['Zombie'/53, l='MpServer', x=-265.50, y=64.00, z=270.50], EntitySkeleton['Skeleton'/55, l='MpServer', x=-271.50, y=64.00, z=260.50], EntityCreeper['Creeper'/56, l='MpServer', x=-264.50, y=63.00, z=287.50], EntityBat['Bat'/57, l='MpServer', x=-260.75, y=50.10, z=289.51], EntityCreeper['Creeper'/314, l='MpServer', x=-255.50, y=64.00, z=220.50], EntityCreeper['Creeper'/315, l='MpServer', x=-250.50, y=64.00, z=220.50], EntityCreeper['Creeper'/317, l='MpServer', x=-248.50, y=64.00, z=224.50], EntityZombie['Zombie'/318, l='MpServer', x=-252.50, y=64.00, z=224.50], EntityBat['Bat'/66, l='MpServer', x=-248.62, y=13.88, z=232.23], EntityPig['Pig'/67, l='MpServer', x=-244.50, y=65.00, z=262.50], EntityPig['Pig'/68, l='MpServer', x=-249.76, y=65.00, z=261.60], EntitySheep['Sheep'/69, l='MpServer', x=-257.21, y=64.00, z=267.60], EntityBat['Bat'/326, l='MpServer', x=-222.81, y=13.00, z=265.36], EntitySheep['Sheep'/71, l='MpServer', x=-246.02, y=64.00, z=273.74], EntityPig['Pig'/72, l='MpServer', x=-245.58, y=64.00, z=274.70], EntitySpider['Spider'/328, l='MpServer', x=-265.50, y=14.00, z=241.50], EntityPig['Pig'/73, l='MpServer', x=-248.38, y=64.00, z=271.57], EntityZombie['Zombie'/329, l='MpServer', x=-266.50, y=14.00, z=238.50], EntityCreeper['Creeper'/74, l='MpServer', x=-230.83, y=68.00, z=268.55], EntityZombie['Zombie'/330, l='MpServer', x=-261.50, y=14.00, z=237.50], EntitySkeleton['Skeleton'/75, l='MpServer', x=-249.25, y=64.00, z=278.26], EntityZombie['Zombie'/331, l='MpServer', x=-266.50, y=14.00, z=242.50], EntityPig['Pig'/76, l='MpServer', x=-248.34, y=64.00, z=270.58], EntitySheep['Sheep'/91, l='MpServer', x=-237.21, y=66.00, z=201.49], EntityZombie['Zombie'/92, l='MpServer', x=-234.34, y=66.00, z=205.93], EntityZombie['Zombie'/93, l='MpServer', x=-239.50, y=64.00, z=233.50], EntitySkeleton['Skeleton'/94, l='MpServer', x=-228.50, y=64.00, z=228.50], EntityCreeper['Creeper'/95, l='MpServer', x=-237.50, y=65.00, z=275.15], EntitySquid['Squid'/96, l='MpServer', x=-233.13, y=55.41, z=337.75], EntityCreeper['Creeper'/98, l='MpServer', x=-210.50, y=46.00, z=226.50], EntityCreeper['Creeper'/99, l='MpServer', x=-222.50, y=36.00, z=236.50], EntityBat['Bat'/100, l='MpServer', x=-215.75, y=25.10, z=260.57], EntityZombie['Zombie'/101, l='MpServer', x=-210.26, y=65.00, z=236.53], EntitySkeleton['Skeleton'/102, l='MpServer', x=-210.30, y=26.31, z=244.70], EntityCreeper['Creeper'/103, l='MpServer', x=-208.30, y=69.00, z=270.30], EntityPig['Pig'/104, l='MpServer', x=-224.62, y=70.00, z=257.48], EntityBat['Bat'/109, l='MpServer', x=-200.25, y=42.10, z=223.25], EntityZombie['Zombie'/110, l='MpServer', x=-198.50, y=39.00, z=229.50], EntityBat['Bat'/111, l='MpServer', x=-200.52, y=38.10, z=230.75], EntitySkeleton['Skeleton'/112, l='MpServer', x=-194.32, y=64.00, z=232.73], EntitySkeleton['Skeleton'/113, l='MpServer', x=-212.31, y=59.00, z=239.51], EntityZombie['Zombie'/114, l='MpServer', x=-197.44, y=60.00, z=241.79], EntitySkeleton['Skeleton'/115, l='MpServer', x=-206.50, y=16.00, z=262.50], EntitySkeleton['Skeleton'/116, l='MpServer', x=-184.50, y=63.00, z=205.50], EntityBat['Bat'/244, l='MpServer', x=-262.99, y=12.49, z=266.40], EntitySpider['Spider'/117, l='MpServer', x=-181.73, y=64.00, z=213.27], EntitySkeleton['Skeleton'/118, l='MpServer', x=-179.75, y=18.00, z=247.19], EntityZombie['Zombie'/119, l='MpServer', x=-183.80, y=66.00, z=256.30], EntityBat['Bat'/121, l='MpServer', x=-176.25, y=55.10, z=270.92], EntityZombie['Zombie'/122, l='MpServer', x=-181.48, y=22.00, z=277.28], EntitySkeleton['Skeleton'/125, l='MpServer', x=-168.50, y=16.00, z=271.50], EntityZombie['Zombie'/126, l='MpServer', x=-162.80, y=17.00, z=268.52], EntitySkeleton['Skeleton'/127, l='MpServer', x=-167.50, y=67.00, z=298.50]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:461)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2888)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:462)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Mac OS X (x86_64) version 10.14.6
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 527731360 bytes (503 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.42 Powered by Forge 14.23.5.2768 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State     | ID        | Version      | Source                           | Signature |
+	|:--------- |:--------- |:------------ |:-------------------------------- |:--------- |
+	| UCHIJAAAA | minecraft | 1.12.2       | minecraft.jar                    | None      |
+	| UCHIJAAAA | mcp       | 9.42         | minecraft.jar                    | None      |
+	| UCHIJAAAA | FML       | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2768.jar | None      |
+	| UCHIJAAAA | forge     | 14.23.5.2768 | forgeSrc-1.12.2-14.23.5.2768.jar | None      |
+	| UCHIJAAAA | mtm       | 1.0          | bin                              | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel Inc.' Version: '2.1 INTEL-12.10.22' Renderer: 'Intel Iris Pro OpenGL Engine'
+	Launched Version: 1.12.2
+	LWJGL: 2.9.2
+	OpenGL: Intel Iris Pro OpenGL Engine GL version 2.1 INTEL-12.10.22, Intel Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because ARB_framebuffer_object is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-4770HQ CPU @ 2.20GHz
